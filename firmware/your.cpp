@@ -1,9 +1,10 @@
 // Your.cpp
 
 
-#include "LED13.h" //include the declaration for this class
+///#include "LED13.h" //include the declaration for this class
+#include "your.h"
 
-const byte LED_PIN = 13; //use the LED @ Arduino pin 13
+const byte LED_PIN = D7;   /// 13; //use the LED @ Arduino pin 13
 
 //<<constructor>> setup the LED, make pin 13 an OUTPUT
 LED13::LED13(){
