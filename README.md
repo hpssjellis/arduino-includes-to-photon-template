@@ -7,6 +7,9 @@ details and example sketch: https://github.com/hpssjellis/arduino-includes-to-ph
 
 Brought to you by: Your Name       your website
 
+This example in the templage was taken from https://www.arduino.cc/en/Hacking/LibraryTutorial
+
+
 
 Instructions
 ----
