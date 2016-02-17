@@ -22,7 +22,7 @@ Instructions
 
 1. Look at the beginner-hints.md and advanced-hints.md files
 
-1. When done. Go to particle.io build IDE and click libraries then click "Contribute Library" enter this url and upload to particle.io to test compilation. Good luck.
+1. When done. go to http://particle.io click the build IDE and click libraries then click "Contribute Library" enter your github url and upload to particle.io to publically test compilation. By the file being public other people can help with issues. Good luck.
 
 
 Note: I suggest using triple comments /// to edit and comment your include files, that way if anyone tries to help you they can tell the difference between what you have done and what was in the original files.
@@ -33,4 +33,8 @@ Check out
 
 https://github.com/pkourany?tab=repositories
 
-
+Note: By Jeremy Ellis
+webiste http://rocksetta.com
+twitter @rocksetta
+Particle.io @rocksetta
+https://community.particle.io/users/rocksetta/activity
