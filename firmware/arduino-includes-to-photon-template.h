@@ -1,5 +1,6 @@
 
-//myInclude.h file
+
+//arduino-includes-to-photon-template.h file
 
 #ifndef LED13_H
 #define LED13_H
