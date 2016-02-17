@@ -55,7 +55,7 @@ Ignore other headers as they may have come from the STM32/ARM Cortex M3 platform
 Include any files that came with your arduino code.
 
 
-Note: The above list has a good chance of being correct but someone could easily have made na include file with the exact same name that is completely different than the above files. Good luck.
+Note: The above list has a good chance of being correct but someone could easily have made an include file with the exact same name that is completely different than the above files. Good luck.
 
 
 
