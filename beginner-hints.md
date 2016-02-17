@@ -3,42 +3,42 @@
 
 Change 
 
-#include "application.h"
+\#include "application.h"
 
 to 
 
-#include "Particle.h"
+\#include "Particle.h"
 
 tri-Comment out /// any header from the following list or starting with 
-#include "avr/..."
 
+\#include "avr/..."
 
-#include "spark_wiring.h"
-#include "spark_wiring_cloud.h"
-#include "spark_wiring_interrupts.h"
-#include "spark_wiring_string.h"
-#include "spark_wiring_power.h"
-#include "spark_wiring_fuel.h"  
-#include "spark_wiring_print.h"
-#include "spark_wiring_usartserial.h"
-#include "spark_wiring_can.h"
-#include "spark_wiring_usbserial.h"
-#include "spark_wiring_usbmouse.h"
-#include "spark_wiring_usbkeyboard.h"
-#include "spark_wiring_spi.h"
-#include "spark_wiring_i2c.h"
-#include "spark_wiring_servo.h"
-#include "spark_wiring_wifi.h"
-#include "spark_wiring_network.h"
-#include "spark_wiring_client.h"
-#include "spark_wiring_startup.h"
-#include "spark_wiring_timer.h"
-#include "spark_wiring_tcpclient.h"
-#include "spark_wiring_tcpserver.h"
-#include "spark_wiring_udp.h"
-#include "spark_wiring_time.h"
-#include "spark_wiring_tone.h"
-#include "spark_wiring_eeprom.h"
+```
+#include "cloud.h"
+#include "interrupts.h"
+#include "string.h"
+#include "power.h"
+#include "fuel.h" 
+#include "print.h"
+#include "usartserial.h"
+#include "can.h"
+#include "usbserial.h"
+#include "usbmouse.h"
+#include "usbkeyboard.h"
+#include "spi.h"
+#include "i2c.h"
+#include "servo.h"
+#include "wifi.h"
+#include "network.h"
+#include "client.h"
+#include "startup.h"
+#include "timer.h"
+#include "tcpclient.h"
+#include "tcpserver.h"
+#include "udp.h"
+#include "time.h"
+#include "tone.h"
+#include "eeprom.h"
 #include "version.h"
 #include "watchdog.h"
 #include "thread.h"
@@ -48,9 +48,14 @@ tri-Comment out /// any header from the following list or starting with
 #include "system_task.h"
 #include "system_user.h"
 #include "stdio.h"
+```
+
+Ignore other headers as they may have come from the STM32/ARM Cortex M3 platform which can be used with particle devices
+
+Include any files that came with your arduino code.
 
 
-Ignore other headers unless specifically included with the arduino set of files
+Note: The above list has a good chance of being correct but someone could easily have made na include file with the exact same name that is completely different than the above files. Good luck.
 
 
 
