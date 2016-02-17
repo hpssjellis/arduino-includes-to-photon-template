@@ -29,12 +29,21 @@ Note: I suggest using triple comments /// to edit and comment your include files
 
 
 
-Check out 
+For great examples of ported librarbies
 
 https://github.com/pkourany?tab=repositories
 
+
+Use these suggestions at hyour own risk.
+
+
+
 Note: By Jeremy Ellis
+
 webiste http://rocksetta.com
+
 twitter @rocksetta
+
 Particle.io @rocksetta
+
 https://community.particle.io/users/rocksetta/activity
