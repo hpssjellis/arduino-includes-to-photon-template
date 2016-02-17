@@ -50,7 +50,7 @@ tri-Comment out /// any header from the following list or starting with
 #include "stdio.h"
 ```
 
-Ignore other headers as they may have come from the STM32/ARM Cortex M3 platform which can be used with particle devices
+Ignore other include files as they may have come from the STM32/ARM Cortex M3 platform which can be used with particle devices
 
 Include any files that came with your arduino code.
 
