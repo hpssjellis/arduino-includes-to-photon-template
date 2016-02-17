@@ -20,7 +20,9 @@ Instructions
 
 1. Copy your main arduino .h and .cpp files to the firmware directory and give them the same name as the github repo name in the above line.
 
-1. Put your name in the MIT license
+1. Put your name and other info into the license file
+
+1. Put similar information into the spark.json file (VERY IMPORTANT THE GITHUB REPO NAME USED ABOVE)
 
 1. Copy your arduino .ino (or rename the .cpp) example program to the examples directory. Best to have a beginner.ino file that only uses the D7 LED, and an advanced.ino file that uses all the capabilities of the ported arduino include with serial.print commands
 
