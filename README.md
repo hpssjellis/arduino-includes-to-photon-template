@@ -40,7 +40,7 @@ Use these suggestions at hyour own risk.
 
 Note: By Jeremy Ellis
 
-webiste http://rocksetta.com
+website http://rocksetta.com
 
 twitter @rocksetta
 
