@@ -1,6 +1,6 @@
 
 
-// myInclude.cpp
+// arduino-includes-to-photon-template.cpp
 
 
 ///#include "LED13.h" //include the declaration for this class
