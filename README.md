@@ -1,4 +1,4 @@
-Title: particle-photon-library-template
+Title: arduino-includes-to-photon-template
 ====
 
 Adapted for Particle devices by Your Name The Date
