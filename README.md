@@ -3,7 +3,7 @@ Title: arduino-includes-to-photon-template
 
 Adapted for Particle devices by Your Name The Date
 
-details and example sketch: http://this url
+details and example sketch: https://github.com/hpssjellis/arduino-includes-to-photon-template
 
 Brought to you by: Your Name       your website
 
