@@ -4,7 +4,7 @@
 
 
 ///#include "LED13.h" //include the declaration for this class
-#include "myInclude.h"
+#include "arduino-includes-to-photon-template.h"
 
 const byte LED_PIN = D7;   /// 13; //use the LED @ Arduino pin 13
 
