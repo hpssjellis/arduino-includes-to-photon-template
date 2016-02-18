@@ -4,6 +4,7 @@
 
 
 ///#include "LED13.h" //include the declaration for this class
+#include "Particle.h"
 #include "myar.h"
 
 const int LED_PIN = D7;   /// 13; //use the LED @ Arduino pin 13
