@@ -7,7 +7,7 @@
 #include "Particle.h"
 #include "myar.h"
 
-const int LED_PIN = D7;   /// 13; //use the LED @ Arduino pin 13
+const byte LED_PIN = D7;   /// 13; //use the LED @ Arduino pin 13
 
 //<<constructor>> setup the LED, make pin 13 an OUTPUT
 LED13::LED13(){
