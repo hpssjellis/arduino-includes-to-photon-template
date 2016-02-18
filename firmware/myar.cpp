@@ -1,10 +1,10 @@
 
 
-// arduino-includes-to-photon-template.cpp
+// myar.cpp
 
 
 ///#include "LED13.h" //include the declaration for this class
-#include "arduino-includes-to-photon-template.h"
+#include "myar.h"
 
 const byte LED_PIN = D7;   /// 13; //use the LED @ Arduino pin 13
 
