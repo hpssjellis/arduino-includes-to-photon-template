@@ -21,11 +21,11 @@ The main difference between the the IDE and the github library is that links ful
 
 On the Particle.io IDE
 
-#include "myInclude.h"
+\#include "myInclude.h"
 
 On a github library
 
-#include "myInclude/myInclude.h"
+\#include "myInclude/myInclude.h"
 
 
 
