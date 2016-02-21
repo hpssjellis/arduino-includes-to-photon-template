@@ -15,6 +15,8 @@ Instructions
 ----
 
 
+1. I strongly suggest first working in the particle.io IDE at https://build.particle.io  and copying include.h and include.cpp files into the IDE. This method is a pain to setup but makes development much easier, (you don't have to switch back and forth between your App and the Library and update version numbers and revalidate for every change you make). When things are working better then fork this github site to make your include files ready to be published on Particle.io
+
 1. After forking this repo, go to settings and rename it
 
 
