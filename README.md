@@ -38,7 +38,7 @@ On a github library
 
 1. Put your name and other info into the license file
 
-1. Put similar information into the spark.json file (VERY IMPORTANT THE GITHUB REPO NAME USED ABOVE)
+1. Put similar information into the spark.json file (VERY IMPORTANT THAT THE SPARK.JSON NAME IS THE EXACT NAME OF YOUR INCLUDE FILE)
 
 1. Copy your arduino .ino (or rename the .cpp) example program to the examples directory. Best to have a a01beginner.ino file that only uses the D7 LED, and an a02advanced.ino file that uses all the capabilities of the ported arduino include with serial.print commands. Note: important that your beginner file is the alphabetically first file that is why I put the a01 before it.
 
