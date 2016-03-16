@@ -15,7 +15,7 @@ Instructions
 ----
 
 
-1. I strongly suggest first working in the particle.io IDE at https://build.particle.io  and copying include.h and include.cpp files into the IDE. This method is a pain to setup but makes development much easier, (you don't have to switch back and forth between your App and the Library. You also do not have to update github spark.json version numbers and revalidate for every change you make). When things are working better then fork this github site to make your include files ready to be published on Particle.io. Remember to edit things with triple comment /// so others will know what you have changed from the Srduino files. 
+1. I strongly suggest first working in the particle.io IDE at https://build.particle.io  and copying include.h and include.cpp files into the IDE. This method is a pain to setup but makes development much easier, (you don't have to switch back and forth between your App and the Library. You also do not have to update github spark.json version numbers and revalidate for every change you make). When things are working better then fork this github site to make your include files ready to be published on Particle.io. Remember to edit things with triple comment /// so others will know what you have changed from the Arduino files. 
 
 The main difference between the the IDE and the github library is that links full path to your includes will change from:
 
