@@ -5,6 +5,7 @@ The datasheet that explains everything is at
 
 Datasheets at https://docs.particle.io/datasheets/photon-datasheet/ 
 
+-------------------------------
 
 If the Arduino file you are porting uses the include SPI.h (which can be commented out for the Photon) then the PIN connections should be
 
