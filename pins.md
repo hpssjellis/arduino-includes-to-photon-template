@@ -1,7 +1,7 @@
 For serial communication with the Particle.io Photon and sensor or actuator boards we need to understand a bit about Uart, SPI and I2C communication and what PINS on the photon to attach wires to.
 
 
-The datasheet that explains everything is at 
+The datasheet that explains everything (and some advanced options) is at 
  https://docs.particle.io/datasheets/photon-datasheet/ 
 
 -------------------------------
