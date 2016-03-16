@@ -2,8 +2,7 @@ For serial communication with the Particle.io Photon and sensor or actuator boar
 
 
 The datasheet that explains everything is at 
-
-Datasheets at https://docs.particle.io/datasheets/photon-datasheet/ 
+ https://docs.particle.io/datasheets/photon-datasheet/ 
 
 -------------------------------
 
