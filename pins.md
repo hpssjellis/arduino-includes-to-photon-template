@@ -1,4 +1,4 @@
-For serial communication with the Particle.io Photon and sensor or actuator boards we need to understand a bit about Uart, SPI and I2C communication and what PINS on the photon to attach wires to.
+For serial communication with the Particle.io Photon and sensor or actuator boards we need to understand a bit about Uart (Tx/Rx), SPI and I2C communication and what PINS on the photon to attach wires to.
 
 
 The datasheet that explains everything (and some advanced options) is at 
@@ -27,9 +27,10 @@ The RX/TX communication is a bit confusing since RX on the device goes to TX on 
 
 
 
-I2C communication can be identified from arduino code by the  include Wire.h which can be commented out on the Photon.
+I2C communication can be identified from Arduino code by the  include Wire.h which can be commented out on the Photon.
 
 (Very important to research if a  4.7K resistors need to be on these wires to protect the Photon from the 5V transmission voltage)
 
 Pin D1 connects to SCL
+
 Pin D0 connects to SDA
