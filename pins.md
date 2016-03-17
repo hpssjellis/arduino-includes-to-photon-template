@@ -8,7 +8,7 @@ The datasheet that explains everything (and some advanced options) is at
 
 If the Arduino file you are porting uses the include SPI.h (which can be commented out for the Photon) then the PIN connections should be
 
-SS to A2 (may not be needed on some devices)
+SS to A2 (or any PIN, may not be needed on some devices, switch LOW to activate, switch HIGH to deactivate all other devices)
 
 SCK to A3
 
@@ -29,7 +29,7 @@ The RX/TX communication is a bit confusing since RX on the device goes to TX on 
 
 I2C communication can be identified from Arduino code by the  include Wire.h which can be commented out on the Photon.
 
-(Very important to research if a  4.7K resistors need to be on these wires to protect the Photon from the 5V transmission voltage)
+(Very important to research if a  4.7K resistor is needed to be on these wires to protect the Photon from the 5V transmission voltage). Interesting if the board can be run using the Photon's 3.3V then the protective resistros may not be needed.
 
 Pin D1 connects to SCL
 
